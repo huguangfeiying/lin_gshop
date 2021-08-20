@@ -8,7 +8,7 @@ import router from './router'
 import store from './store'
 import './mock/mockServer'
 import loading from './common/imgs/loading.gif'
-import './fiters' // 加载过滤器
+import './fiters'
 
 Vue.config.productionTip = false
 

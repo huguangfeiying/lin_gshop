@@ -102,9 +102,9 @@ export default {
         this.scrollY = Math.abs(y)
       })
       // 给右侧列表绑定scroll结束的监听
-      this.foodScroll.on('scrollEnd', ({y}) => {
+      this.foodScroll.on('scrollEnd', ({x, y}) => {
         // console.log('scrollEnd', x, y)
-        this.scrollY = Math.abs(y)
+        this.scrollY = Math.abs(x, y)
       })
     },
     // tops
